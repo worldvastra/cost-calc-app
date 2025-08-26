@@ -18,10 +18,16 @@
   "author": "Your Name",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.18.2",
+    "@aws-sdk/client-s3": "^3.873.0",
+    "@aws-sdk/s3-request-presigner": "^3.873.0",
     "cors": "^2.8.5",
-    "axios": "^1.6.2",
-    "dotenv": "^16.3.1"
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "googleapis": "^157.0.0",
+    "multer": "^2.0.2",
+    "path": "^0.12.7",
+    "pg": "^8.16.3"
   },
   "devDependencies": {
     "nodemon": "^3.0.2"
